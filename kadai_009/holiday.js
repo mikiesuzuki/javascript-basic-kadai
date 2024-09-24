@@ -3,3 +3,11 @@ holidays = ["正月","成人の日","建国記念日","天皇誕生日","春分�
 for (let i = 0; i < holidays.length; i++) {
     console.log(holidays[i]);
 }
+
+
+
+let index = 0;
+while (index < holidays.length) {
+  console.log(holidays[index]);
+  index++;
+}
